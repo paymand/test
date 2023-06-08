@@ -9,7 +9,7 @@ updates:
     registries:
       - npm-npmjs
     schedule:
-      interval: "weekly"
+      interval: "daily"
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
