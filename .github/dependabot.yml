@@ -1,0 +1,16 @@
+version: 2
+registries:
+  npm-npmjs:
+    type: npm-registry
+    url: https://registry.npmjs.org
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    registries:
+      - npm-npmjs
+    schedule:
+      interval: "weekly"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
+    open-pull-requests-limit: 15
