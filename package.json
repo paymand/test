@@ -18,7 +18,48 @@
   },
   "homepage": "https://github.com/paymand/test#readme",
   "dependencies": {
-    "chalk": "^5.2.0",
-    "lodash": "^4.17.21"
+    "@types/redux-mock-store": "^1.5.0",
+    "animate.css": "^4.1.1",
+    "dotenv": "^17.2.2",
+    "postcss": "^8.5.0",
+    "postcss-loader": "^8.2.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.13.21",
+    "@types/react-transition-group": "^4.4.12",
+    "@types/webpack-env": "^1.18.8",
+    "@types/zxcvbn": "^4.4.5",
+    "app-module-path": "^2.2.0",
+    "assets-webpack-plugin": "^7.1.1",
+    "babel-jest": "^29.7.0",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "cross-env": "^7.0.3",
+    "dependency-cruiser": "^17.1.0",
+    "eslint": "^9.37.0",
+    "jest-fail-on-console": "^3.3.1",
+    "jest-junit": "^16.0.0",
+    "lerna": "^8.2.4",
+    "lint-staged": "^15.5.2",
+    "mock-local-storage": "^1.1.24",
+    "mq-polyfill": "^1.1.8",
+    "nodemon": "^3.1.10",
+    "path-browserify": "^1.0.1",
+    "pre-commit": "^1.2.2",
+    "redux-mock-store": "^1.5.5",
+    "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.14",
+    "timekeeper": "^2.3.1",
+    "ts-migrate": "^0.1.35",
+    "typescript": "^5.9.2",
+    "url-loader": "^4.1.1",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^6.0.1"
+  },
+  "overrides": {
+    "webpack": "^5.102.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7"
   }
 }
