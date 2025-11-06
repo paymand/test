@@ -34,7 +34,7 @@
     "assets-webpack-plugin": "^7.1.1",
     "babel-jest": "^29.7.0",
     "babel-plugin-dynamic-import-node": "^2.3.3",
-    "cross-env": "^7.0.3",
+    "cross-env": "^10.0.0",
     "dependency-cruiser": "^17.1.0",
     "eslint": "^9.37.0",
     "jest-fail-on-console": "^3.3.1",
