@@ -1,0 +1,2 @@
+minimumReleaseAge: 525600 # one year
+strictPeerDependencies: true
